@@ -1,0 +1,40 @@
+@import "variables";
+
+// Подключение базовых настроек
+@import "settings";
+
+//Подключение normalize.css
+@import "normalize";
+
+// Подключение хедера
+@import "blocks/header.scss";
+
+// Подключение hero
+@import "blocks/hero";
+
+// Подключение buildings
+@import "blocks/buildings";
+
+// Подключение about
+@import "blocks/about";
+
+// Подключение блока counters
+@import "blocks/counters";
+
+// Подключение блока advantages
+@import "blocks/advantages";
+
+// Подключение блока objects
+@import "blocks/objects";
+
+// Подключение блока relocate
+@import "blocks/relocate";
+
+// Подключение блока form
+@import "blocks/form";
+
+// Подключение блока footer
+@import "blocks/footer";
+
+// Подключение стилей для адаптива
+@import "media";
