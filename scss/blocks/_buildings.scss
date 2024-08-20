@@ -1,0 +1,28 @@
+.buildings {
+  margin-bottom: 150px;
+  background-color: #F5FBFF;
+  padding: 60px 0;
+  &-content {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    &:hover {
+        transform: scale(105%);
+    }
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    color: #073f6d;
+    margin: 0;
+  }
+}

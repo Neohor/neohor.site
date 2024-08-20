@@ -1,0 +1,139 @@
+.request {
+  position: relative;
+  margin-bottom: 150px;
+  // background-color: #e9f5ff;
+  // padding: -160px 0;
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #073f6d;
+    margin-bottom: 20px;
+  }
+  &-description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #5d85a5;
+    margin: 0 0 30px 0;
+  }
+
+  &-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 630px;
+  }
+  &-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 466px;
+    padding: 50px;
+    background-color: #d1eaff;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    // position: absolute;
+    // right: 0;
+    // top: 50%;
+    // transform: translate(-0%, -50%);
+  }
+}
+
+.background-fill {
+  background-color: #e9f5ff;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 12%;
+  z-index: -2;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+  &__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    color: #073f6d;
+    margin: 0 0 20px 0;
+  }
+  &__description {
+    margin: 0 0 20px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #5d85a5;
+  }
+}
+
+input {
+  padding: 18px 20px;
+  background-color: #fff;
+  width: 366px;
+  border: 1px solid #b3bcc5;
+  border-radius: 4px;
+  outline: none;
+  &::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #b3bcc5;
+  }
+}
+
+.text-contacts {
+  margin-bottom: 10px;
+}
+
+.contacts {
+  &-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  &-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+}
+
+.form__icon {
+  width: 40px;
+  height: 40px;
+}
+
+.checkbox {
+  display: flex;
+  max-width: 366px;
+  gap: 6px;
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+[type=checkbox], [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+  width: 10%;
+}
+
+.checkbox__text {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+  color: #8FB1D3;
+  margin: 0;
+  text-align: left;
+}

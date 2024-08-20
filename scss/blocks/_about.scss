@@ -1,0 +1,31 @@
+
+
+.about {
+    margin-bottom: 150px;
+    &-content {
+        display: flex;
+        gap: 30px;
+    }
+    &__image {
+        width: 200px;
+    }
+}
+
+.title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    color: #073F6D;
+    margin: 0 0 50px 0;
+}
+
+.content-text {
+    max-width: 630px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #5D85A5;
+    margin: 0;
+}
+
+
